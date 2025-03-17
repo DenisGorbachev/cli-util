@@ -2,6 +2,7 @@
 name = "cli-util"
 version = "0.1.0"
 edition = "2021"
+description = "Utilities for Rust CLI apps"
 homepage = "https://github.com/DenisGorbachev/cli-util"
 repository = "https://github.com/DenisGorbachev/cli-util"
 readme = "README.md"
@@ -26,9 +27,3 @@ subtype = { git = "https://github.com/DenisGorbachev/subtype" }
 
 [package.metadata.cargo-machete]
 ignored = ["derive_more", "derive-getters", "derive-new", "fmt-derive", "stub-macro", "standard-traits", "helpful", "subtype"]
-
-
-
-
-
-
