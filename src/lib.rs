@@ -1,1 +1,4 @@
-//! This is a module-level comment for a Rust lib
+//! This crate contains macros for building CLIs quickly.
+
+mod macros;
+pub use macros::*;
