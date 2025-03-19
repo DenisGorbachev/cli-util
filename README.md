@@ -7,7 +7,7 @@
 [![Build](https://github.com/DenisGorbachev/cli-util/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/cli-util)
 [![Documentation](https://docs.rs/cli-util/badge.svg)](https://docs.rs/cli-util)
 
-This is a module-level comment for a Rust lib
+This crate contains macros for building CLIs quickly.
 
 ## Installation
 
