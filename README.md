@@ -4,9 +4,12 @@
 
 # Utilities for Rust CLI apps
 
+[![Build](https://github.com/DenisGorbachev/cli-util/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/cli-util)
 [![Documentation](https://docs.rs/cli-util/badge.svg)](https://docs.rs/cli-util)
 
+<!-- crate documentation start -->
 This crate contains macros for building CLIs quickly.
+<!-- crate documentation end -->
 
 ## Installation
 

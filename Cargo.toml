@@ -1,13 +1,33 @@
 [package]
 name = "cli-util"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+rust-version = "1.85.0"
 description = "Utilities for Rust CLI apps"
 homepage = "https://github.com/DenisGorbachev/cli-util"
 repository = "https://github.com/DenisGorbachev/cli-util"
 readme = "README.md"
 keywords = []
 categories = []
+exclude = [
+    ".*",
+    "*.local.*",
+    "doc/dev",
+    "specs",
+    "AGENTS.ts",
+    "README.ts",
+    "AGENTS*.md",
+    "CLAUDE*.md",
+    "deno.lock",
+    "deno.json",
+    "commitlint.config.mjs",
+    "fnox.toml",
+    "lefthook.yml",
+    "mise.toml",
+    "rumdl.toml",
+    "rustfmt.toml",
+    ".yolobox"
+]
 
 [package.metadata.details]
 tagline = ""
